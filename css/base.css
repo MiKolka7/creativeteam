@@ -7,7 +7,7 @@
 
 .section_description {
 	color: #777;
-	font-family: 'Droid Serif', serif;
+	font-family: DroidSerif;
 	font-size: 16px;
 	font-style: italic;
 	margin-top: 19px;
@@ -15,7 +15,7 @@
 
 .section_title {
 	color: #222;
-	font-family:'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 75px;
@@ -25,7 +25,7 @@
 
 .button_title {
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -37,11 +37,14 @@
 	height: 65px;
 	background-color: #fed136;
 	border-radius: 2px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .copyright {
 	color: #555;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -49,7 +52,7 @@
 
 h1 {
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-size: 75px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -57,14 +60,14 @@ h1 {
 
 h2 {
 	color: white;
-	font-family: 'Droid Serif', serif;
+	font-family: DroidSerif;
 	font-size: 40px;
 	font-style: italic;
 }
 
 h5 {
 	color: #222;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 75px;
@@ -72,7 +75,7 @@ h5 {
 
 h6 {
 	color: #777;
-	font-family: 'Roboto Slab', serif;
+	font-family: RobotoSlab;
 	font-size: 14px;
 	font-weight: 400;
 }
