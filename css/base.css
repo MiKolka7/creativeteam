@@ -1,50 +1,54 @@
+body {
+	margin: 0;
+}
+
 .container {
-	width: 976px;
+	width: 940px;
 	margin: 0 auto;
-	padding-top: 44px;
 	position: relative;
 }
 
 .section_description {
 	color: #777;
-	font-family: DroidSerif;
+	font-family: 'Droid Serif', serif;
 	font-size: 16px;
 	font-style: italic;
-	margin-top: 19px;
+	text-align: center;
+	padding:0 0 76px;
+	margin: 0;
 }
 
 .section_title {
 	color: #222;
-	font-family: Montserrat;
+	font-family:'Montserrat', sans-serif;
 	font-size: 40px;
-	font-weight: 700;
-	line-height: 75px;
 	text-transform: uppercase;
-	padding-top: 120px;
+	text-align: center;
+	padding: 120px 0 10px;
+	margin: 0;
 }
 
 .button_title {
 	color: white;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
-	font-weight: 700;
 	text-transform: uppercase;
-	margin-top: 25px;
+	padding: 21px;
 }
 
 .button {
 	width: 240px;
 	height: 65px;
 	background-color: #fed136;
-	border-radius: 2px;
-	display: inline-block;
+	border-radius: 3px;
 	text-align: center;
-	vertical-align: middle;
+	margin: 0 auto;
+	cursor: pointer;
 }
 
 .copyright {
 	color: #555;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -60,22 +64,19 @@ h1 {
 
 h2 {
 	color: white;
-	font-family: DroidSerif;
+	font-family: 'Droid Serif', serif;
 	font-size: 40px;
 	font-style: italic;
 }
 
 h5 {
 	color: #222;
-	font-family: Montserrat;
+	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
-	font-weight: 700;
-	line-height: 75px;
 }
 
 h6 {
 	color: #777;
-	font-family: RobotoSlab;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	font-weight: 400;
 }
