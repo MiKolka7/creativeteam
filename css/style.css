@@ -1,22 +1,21 @@
 
 .home {
-	padding: 44px 0 160px 0;
+	padding-bottom: 161px;
 	background-image: url("../img/background.png");
 	background-size: cover;
-}
-
-.container {
-	width: 980px;
-	margin: 0 auto;
-}
-
-.home {
 	color: white;
-} 
+}
+
+/*.home .container {
+	max-width: 976px;
+	margin: 0 auto;
+	padding-top: 44px;
+	position: relative;
+}*/
 
 .home h2 {
 	text-align: center;
-	padding-top: 212px;
+	padding-top: 205px;
 	padding-bottom: 52px;
 	font-family: DroidSerif;
 	font-size: 40px;
@@ -31,7 +30,7 @@
 	text-transform: uppercase;
 	text-align: center;
 	padding-bottom: 60px;
-	line-height: 51px;
+	line-height: 55px;
 }
 
 .clearfix::after {
@@ -41,53 +40,66 @@
 	clear: both;
 }
 
-.logo {
+.home .logo {
 	float: left;
 }
 
-.menu {
+.home .menu {
 	float: right;
-	font-family: "MyriadProRegular";
-	font-size: 21px;
+	font-family: "Montserrat";
 	font-weight: 600;
+	line-height: 30px;
 }
 
-.menu__item {
+.home .menu__item {
 	color: white;
 	text-decoration: none;
 	margin-left: 40px;
-	font-family: "MyriadProRegular";
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
-.menu__item:hover {
+.home .menu__item:hover {
 	color:#fed136;
 }
 
-.button {
+.home .button {
 	width: 240px;
 	height: 65px;
 	background-color: #fed136;
 	border-radius: 2px;
+	display: block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.home .button_title {
 	color: white;
-	text-align: center;
-    display: block;
-    font-family: Montserrat;
+	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
-	text-transform: uppercase;
-	margin: 0 auto;
-} 
+	text-align:	center;
+	display: block;
+	line-height: 65px;
+	margin: 0;
+}
 
-.button:hover {
+.home .button:hover {
 	background: black;
 }
 
+.technologies {
+	text-align: center;
+	line-height: 164px;
+}
 
-
-
+.technologies img {
+	margin-right: 40px;
+	vertical-align: middle;
+}
 
 
 
