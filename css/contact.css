@@ -1,0 +1,62 @@
+.contact {
+	background-color: #222;
+}
+
+#bg_img {
+    position: absolute;
+    margin: -560px 575px;
+}
+
+form > p, 
+div.col-6 > p, 
+div.submit > p {
+	margin:0 auto;
+}
+
+#contact_title {
+	color: white;
+}
+
+.col-6 {
+	float: left;
+	margin-right: 28px;	
+}
+
+.col-6::after, .clerfix::after {
+    content: '';
+    overflow: hidden;
+    display: table;
+    clear: both;
+}
+
+#messageName, #messageEmail, #messageSubject {
+	width: 430px;
+	height: 46px;
+	background-color: white;
+	border-radius: 3px;
+	margin-bottom: 29px;
+	color: #bbb;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 21px;
+}
+
+.message {
+	width: 412px;
+	height: 196px;
+	background-color: white;
+	border-radius: 3px;
+	color: #bbb;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	vertical-align:top;
+	padding:17px 21px 0 21px;
+	margin-bottom: 29px;
+}
+
+.submit {
+	text-align: center;
+	padding-bottom: 115px;
+}
