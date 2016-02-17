@@ -1,16 +1,15 @@
 
 .home {
-	padding-bottom: 161px;
+	padding: 44px 0 161px 0;
 	background-image: url("../img/background.png");
 	background-size: cover;
 	color: white;
 }
 
 /*.home .container {
-	max-width: 976px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding-top: 44px;
-	position: relative;
 }*/
 
 .home h2 {
@@ -85,6 +84,7 @@
 	display: block;
 	line-height: 65px;
 	margin: 0;
+	padding: 0;
 }
 
 .home .button:hover {
