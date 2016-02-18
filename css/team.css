@@ -1,42 +1,85 @@
-.team {
+.our_team {
 	background-color: #f7f7f7;
 }
 
-p.team_text {
-	max-width: 650px;
-	margin: 0 auto;
-	color: #777;
-	font-family: 'Roboto Slab', serif;
-	font-size: 16px;
+.col {
+	float: left;
+	width: 25%;
 	text-align: center;
-	padding-bottom: 117px;
 }
 
-.people {
-	text-align: center;
-	margin: -5px 50px 0;
+.col_left {
+	margin-left: 7.5%;
 }
 
-.empl-1, .empl-2, .empl-3 {
-	margin:0;
-	margin:0 23px 51px;
-	float:left;
+.col_center {
+	margin: 0 5%;
 }
 
-.empl_name {
-	color: #222;
-	font-family: 'Montserrat', sans-serif;
+.col_right {
+	margin-right: 7.5%;
+}
+
+.clearfix::after {
+	content: '';
+    overflow: hidden;
+    display: table;
+    clear: both;
+}
+
+ .figure {
+	width: 234px;
+	height: 234px;
+	border-radius: 50%;
+}
+
+
+.col figure {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.name {
 	font-size: 16px;
-	padding-top: 10px;
+	margin: 0;
+	padding-top:10px;
 }
 
-.empl_job {
+.working_position {
 	color: #777;
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	padding-bottom: 14px;
+	font-weight: 400;
+	padding: 6px 0 14px 0;
 }
-.social_profile > img {
-	margin:0 4px;
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: solid #222 3px;
+	line-height: 40px;
+	display: inline-block;
+	margin: 0 4px;
+	box-sizing: border-box;
+}
+
+.circle:hover {
 	cursor: pointer;
+}
+
+.social-icon {
+	text-align: center;
+}
+
+.about_team {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+	font-family: "RobotoSlab", serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 51px 0 117px 0;
+	line-height: 20px;
 }
