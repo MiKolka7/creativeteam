@@ -22,7 +22,7 @@ div.submit > p {
 	margin-right: 28px;	
 }
 
-.col-6::after, .clerfix::after {
+.col-6::after, .clearfix::after {
     content: '';
     overflow: hidden;
     display: table;
@@ -43,6 +43,7 @@ div.submit > p {
 }
 
 .message {
+	resize: none;
 	width: 412px;
 	height: 196px;
 	background-color: white;

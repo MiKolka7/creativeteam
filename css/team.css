@@ -1,0 +1,42 @@
+.team {
+	background-color: #f7f7f7;
+}
+
+p.team_text {
+	max-width: 650px;
+	margin: 0 auto;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 117px;
+}
+
+.people {
+	text-align: center;
+	margin: -5px 50px 0;
+}
+
+.empl-1, .empl-2, .empl-3 {
+	margin:0;
+	margin:0 23px 51px;
+	float:left;
+}
+
+.empl_name {
+	color: #222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.empl_job {
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	padding-bottom: 14px;
+}
+.social_profile > img {
+	margin:0 4px;
+	cursor: pointer;
+}

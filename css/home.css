@@ -1,0 +1,70 @@
+.home {
+	padding-bottom: 161px;
+	background-image: url("../pic/background.png");
+	background-size: cover;
+	color: white;
+} 
+
+.home h2 {
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 30px;
+	font-family: 'Droid Serif', serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.home h1 {
+	font-family:'Montserrat', sans-serif;
+	font-size: 75px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 54px;
+}
+
+.home header {
+	padding-top: 44px;
+}
+
+.clearfix::after {
+	content: '';
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.home .logo {
+	width: 79px;
+	float: left;
+}
+
+.home .menu {
+	float: right;
+	font-family:'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.home .menu__item {
+	color: white;
+	text-decoration: none;
+	margin-left: 40px;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.home .menu__item:hover {
+	color:#fed136;
+}
+
+
+
+
+
+
+
+
