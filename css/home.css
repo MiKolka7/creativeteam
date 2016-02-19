@@ -1,5 +1,5 @@
 .home {
-	padding-bottom: 161px;
+	padding-bottom: 160px;
 	background-image: url("../pic/background.png");
 	background-size: cover;
 	color: white;
@@ -7,8 +7,8 @@
 
 .home h2 {
 	text-align: center;
-	padding-top: 205px;
-	padding-bottom: 30px;
+	padding-top: 200px;
+    padding-bottom: 20px;
 	font-family: 'Droid Serif', serif;
 	font-size: 40px;
 	font-style: italic;
@@ -20,7 +20,7 @@
 	font-size: 75px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 54px;
+	padding-bottom: 40px;
 }
 
 .home header {
