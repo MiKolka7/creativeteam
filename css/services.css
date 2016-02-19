@@ -1,20 +1,9 @@
 .services_item {
-	width: 274px;
-	text-align: center;
-	float:left;
-	margin: 0 28px 118px;
+	width: 29.3%;
+    text-align: center;
+    float: left;
+    margin: 0 2% 118px;
 }
 .services_wrap {
-	margin: 0 -28px;
+	margin: 0 -2%;
 }
-
-/*.about_list::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 50%;
-	bottom: 0;
-	width: 2px;
-	margin-left: -1px;
-	background: #ddd;
-}*/

@@ -2,41 +2,20 @@
 	background-color: #f7f7f7;
 }
 
-.col {
-	float: left;
-	width: 25%;
-	text-align: center;
+.team_container {
+	max-width: 794px;
+    margin: 0 auto;
 }
 
-.col_left {
-	margin-left: 7.5%;
+.col_container {
+	width: 29.33%;
+    text-align: center;
+    margin: 0 2% 50px;
+    float: left;	
 }
 
-.col_center {
-	margin: 0 5%;
-}
-
-.col_right {
-	margin-right: 7.5%;
-}
-
-.clearfix::after {
-	content: '';
-    overflow: hidden;
-    display: table;
-    clear: both;
-}
-
- .figure {
-	width: 234px;
-	height: 234px;
-	border-radius: 50%;
-}
-
-
-.col figure {
+img.figure {
 	width: 100%;
-	padding-bottom: 20px;
 }
 
 .name {
@@ -72,14 +51,14 @@
 	text-align: center;
 }
 
-.about_team {
+p.about_team {
 	width: 600px;
 	margin: 0 auto;
 	text-align: center;
 	color: #777;
-	font-family: "RobotoSlab", serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	font-weight: 400;
-	padding: 51px 0 117px 0;
-	line-height: 20px;
+	padding-bottom: 117px;
+	line-height: 24px;
 }

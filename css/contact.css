@@ -22,7 +22,7 @@ div.submit > p {
 	margin-right: 28px;	
 }
 
-.col-6::after, .clearfix::after {
+.col-6::after {
     content: '';
     overflow: hidden;
     display: table;

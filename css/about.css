@@ -1,18 +1,19 @@
-.vert_line {
-	top:260px;
-	bottom:0;
-	position: absolute;
-	left: 50%;
-	z-index: -1;
-	background-color: #f1f1f1;
-	width: 2px;
-	margin-left: -1px;
-}
-
 h5.date {
 	text-transform: uppercase;
 	margin-bottom: -20px;
 	padding: 0;
+}
+
+.text_line::after {
+	content: "";
+	top: 320px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    background-color: #f1f1f1;
+    width: 2px;
+    margin-left: -1px;
 }
 
 .text_left {
@@ -24,13 +25,13 @@ h5.date {
 .text_left img {
 	float: right;
     margin-left: 36px;
-    margin-right: -19%;
+    margin-right: -88px;
     border: 7px solid #f1f1f1;
     border-radius: 50%
 }
 
 .text_right {
-	padding-bottom: 93px;;
+	padding-bottom: 93px;
     margin-left: 50%;
     text-align: left;
 }
@@ -38,9 +39,9 @@ h5.date {
 .text_right img {
 	float: left;
     margin-right: 36px;
-    margin-left: -19%;
+    margin-left: -92px;
     border: 7px solid #f1f1f1;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .button_circle {
@@ -65,7 +66,7 @@ h5.date {
 	line-height: 32px;
     width: 108px;
     color: #fff;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
