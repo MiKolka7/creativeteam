@@ -21,23 +21,21 @@
     line-height: 40px;    
 }
 
-/*.tw:hover {
-    width: 40px;
-    height: 40px;
-    background-color: ##00aced;
+.tw:hover {
+    background: #00aced;
 }
 
 .fb:hover {
-    background-color: ##3b5998;
+    background-color: #3b5998;
 }
 
 .pinterest:hover {
-     background-color: ##cb2028;
+     background-color: #cb2028;
 }
 
 .google:hover {
-    background-color: ##da2713;
-}*/
+    background-color: #da2713;
+}
 
 .tw img, 
 .fb img,
