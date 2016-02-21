@@ -4,7 +4,7 @@ body {
 
 .container {
 	max-width: 940px;
-	min-width: 678px;
+	min-width: 260px; /* 320-20*2(padding)-20(scroll) */
 	padding: 0 20px;
 	margin: 0 auto;
 	position: relative;

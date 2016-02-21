@@ -2,6 +2,7 @@
 	padding-bottom: 160px;
 	background-image: url("../pic/background.png");
 	background-size: cover;
+	background-position: 50% 50%;
 	color: white;
 } 
 
@@ -52,6 +53,76 @@
 
 .home .menu__item:hover {
 	color:#fed136;
+}
+
+#menu_button,
+label[for="menu_button"] {
+	display: none;
+}
+
+
+/*@media*/
+@media screen and (max-width:768px) {
+	
+	#menu_button:checked + .menu {
+		display: block;
+	}
+
+	label[for="menu_button"] {
+		display: block;
+		cursor: pointer;
+	}
+
+	.home .menu__item {
+		line-height: 35px;
+		margin-left: 0;
+		display: block;
+	}
+
+	.home .menu {
+		left: 65px;
+		top: 85px;
+		display: none;
+		position: absolute;
+	}
+
+	.home .logo {
+		float: none;
+		display: block;
+	}
+
+	.home h2 {
+		padding-top: 230px;
+	}
+
+	.home label[for="menu_button"]::after {
+		content: '';
+		position: absolute;
+		top: 96px;
+		left: 20px;
+		width: 30px;
+		height: 20px;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.home label[for="menu_button"]::before {
+		content: '';
+		position: absolute;
+		top: 107px;
+		left: 20px;
+		width: 30px;
+		height: 20px;
+		border-top: 2px solid #fff;
+	}
+	
+}
+
+@media screen and (max-width:480px) {
+		.home h1 {
+		font-size: 60px;
+	}
+
 }
 
 
