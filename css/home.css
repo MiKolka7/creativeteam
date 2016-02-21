@@ -119,10 +119,33 @@ label[for="menu_button"] {
 }
 
 @media screen and (max-width:480px) {
-		.home h1 {
-		font-size: 60px;
+	.home h1 {
+		font-size: 55px;
 	}
 
+	.home h2 {
+		font-size: 32px;
+	}
+
+}
+
+@media screen and (max-width:320px) {
+	.home h1 {
+		font-size: 42px;
+	}
+
+	.home h2 {
+		font-size: 25px;
+	}
+
+	.button {
+		width: 200px;
+		height: 55px;
+	}
+
+	.button_title {
+		padding: 16px;
+	} 
 }
 
 
