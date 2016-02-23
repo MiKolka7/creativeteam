@@ -1,13 +1,22 @@
+.about {
+    margin: 0 2px;
+}
+
+.about>.container {
+    width: 100%;
+    min-width: 240px;
+    padding: 0 0 120px;
+}
+
 h5.date {
 	text-transform: uppercase;
-	margin-bottom: -20px;
 	padding: 0;
 }
 
 .text_line::after {
 	content: "";
-	top: 320px;
-    bottom: 0;
+	top: 275px;
+    bottom: 120px;
     position: absolute;
     left: 50%;
     z-index: -1;
@@ -18,16 +27,16 @@ h5.date {
 
 .text_left {
 	padding-bottom: 93px;
-    width: 50%;
+    margin-right: 50%;
     text-align: right;
 }
 
 .text_left img {
 	float: right;
-    margin-left: 36px;
-    margin-right: -88px;
+    margin-left: 10%;
+    margin-right: -19%;
     border: 7px solid #f1f1f1;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .text_right {
@@ -38,8 +47,8 @@ h5.date {
 
 .text_right img {
 	float: left;
-    margin-right: 36px;
-    margin-left: -92px;
+    margin-right: 10%;
+    margin-left: -19%;
     border: 7px solid #f1f1f1;
     border-radius: 50%;
 }
@@ -50,8 +59,7 @@ h5.date {
 	background-color: #fed136;
 	border: 7px solid #f1f1f1;
 	border-radius: 50%;
-	display: block;
-	margin: 0 auto 120px;
+	margin: 0 auto;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
@@ -63,14 +71,170 @@ h5.date {
 }
 
 .circle_title {
-	line-height: 32px;
+	line-height: 31px;
     width: 108px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 6px auto;
+    margin: auto;
     text-shadow: 1px 1px 2px rgba(53, 45, 23, 0.22);
 }
+
+/*@media*/
+@media screen and (max-width: 1200px) {
+    .text_left img {
+        margin-left: 9%;
+        margin-right: -19%;
+    }
+
+    .text_right img {
+        margin-right: 9%;
+        margin-left: -19%;
+    }
+}    
+
+@media screen and (max-width: 945px) {
+    .text_left img {
+        margin-left: 8%;
+        margin-right: -20%;
+    }
+
+    .text_right img {
+        margin-right: 8%;
+        margin-left: -20%;
+    }
+
+    h3, h4, h5, h6  {
+        font-size: 90%;
+    }
+}    
+
+@media screen and (max-width: 900px) {
+    .text_left img {
+        margin-left: 7%;
+        margin-right: -20%;
+    }
+
+    .text_right img {
+        margin-right: 7%;
+        margin-left: -20%;
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 80%;
+    }
+
+    .text_right img,
+    .text_left img {
+        width: 35%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text_left img {
+        margin-right: -19%;
+    }
+
+    .text_right img {
+        margin-left: -19%;
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 75%;
+    }
+
+    .circle_title {
+        line-height: 27px;
+    }
+
+    .button_circle {
+        width: 18%; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .text_left img {
+        margin-left: 5%;
+        margin-right: -20%;
+    }
+
+    .text_right img {
+        margin-right: 5%;
+        margin-left: -20%;
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 72%;
+    }
+
+    .circle_title {
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .text_line::after {
+        display: none;
+    }
+
+    .text_left,
+    .text_right {
+        width: 100%;
+        text-align: center;
+        padding: 0 0 50px;
+    }
+
+    .text_right {
+        margin-left: 0;
+    }
+
+    .text_left img,
+    .text_right img {
+        float: none;
+        text-align: center;
+        margin: 0 0 10px;
+        width: 30%;
+        height: auto;
+    }
+    
+    h3, h4, h5, h6  {
+        font-size: 90%;
+    }
+
+    .circle_title {
+        line-height: 34px;
+    }
+
+    .button_circle {
+        width: 168px;
+        height: 168px; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .circle_title {
+        line-height: 27px;
+    }
+
+    .button_circle {
+        width: 138px;
+        height: 138px; 
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .circle_title {
+        line-height: 21px;
+    }
+
+    .button_circle {
+        width: 118px;
+        height: 118px; 
+    }
+} 
+
 
