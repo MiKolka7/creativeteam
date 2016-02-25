@@ -24,16 +24,16 @@
 	padding-bottom: 40px;
 }
 
-.home header {
+header {
 	padding-top: 44px;
 }
 
-.home .logo {
+.logo {
 	width: 79px;
 	float: left;
 }
 
-.home .menu {
+.menu {
 	float: right;
 	font-family:'Montserrat', sans-serif;
 	font-size: 21px;
@@ -41,7 +41,7 @@
 	line-height: 30px;
 }
 
-.home .menu__item {
+.menu__item {
 	color: white;
 	text-decoration: none;
 	margin-left: 40px;
@@ -51,71 +51,65 @@
 	text-transform: uppercase;
 }
 
-.home .menu__item:hover {
+.menu__item:hover {
 	color:#fed136;
 }
 
-#menu_button,
-label[for="menu_button"] {
+.menu_hidden {
 	display: none;
+	position: relative;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 30px;
+	height: 20px;
+	float: right;
+}
+
+.menu_hidden::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: -1px;
+	border-top: 2px solid #fff;
+}
+
+#menu_button {
+	display: none;
+}
+
+#menu_button:checked + .menu {
+	display: block;
 }
 
 
 /*@media*/
 @media screen and (max-width:768px) {
 	
-	#menu_button:checked + .menu {
-		display: block;
-	}
-
-	label[for="menu_button"] {
+	.menu_hidden {
 		display: block;
 		cursor: pointer;
 	}
 
-	.home .menu__item {
-		line-height: 35px;
+	.menu__item {
+		line-height: 38px;
 		margin-left: 0;
 		display: block;
 	}
 
-	.home .menu {
-		left: 65px;
+	.menu {
+		right: 20px;
+		text-align: right;
 		top: 85px;
-		display: none;
 		position: absolute;
-	}
-
-	.home .logo {
-		float: none;
-		display: block;
+		display: none;
 	}
 
 	.home h2 {
 		padding-top: 230px;
 	}
 
-	.home label[for="menu_button"]::after {
-		content: '';
-		position: absolute;
-		top: 96px;
-		left: 20px;
-		width: 30px;
-		height: 20px;
-		border-top: 2px solid #fff;
-		border-bottom: 2px solid #fff;
-	}
-
-	.home label[for="menu_button"]::before {
-		content: '';
-		position: absolute;
-		top: 107px;
-		left: 20px;
-		width: 30px;
-		height: 20px;
-		border-top: 2px solid #fff;
-	}
-	
 }
 
 @media screen and (max-width:480px) {
@@ -147,7 +141,6 @@ label[for="menu_button"] {
 		padding: 16px;
 	} 
 }
-
 
 
 
