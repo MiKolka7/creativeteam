@@ -5,7 +5,7 @@
 }
 
 .social {
-    padding: 20px 0 0 360px;
+    padding: 20px 0 0 39%;
 }
 
 .tw, .fb, .pinterest,.google {
@@ -18,11 +18,13 @@
     cursor: pointer;
     text-align: center;
     display: inline-block;
-    line-height: 40px;    
+    line-height: 39px;
+    transition: background-color .2s ease-in-out;
 }
 
+
 .tw:hover {
-    background: #00aced;
+    background-color: #00aced;
 }
 
 .fb:hover {
@@ -42,4 +44,56 @@
 .pinterest img,
 .google img {
     vertical-align: middle;
+}
+
+@media screen and (min-width:1191px) {
+   .social {
+    padding: 20px 0 0 39%;
+    } 
+}
+
+@media screen and (max-width:1190px) {
+   .social {
+    padding: 20px 0 0 38%;
+    } 
+}
+
+@media screen and (max-width:920px) {
+   .social {
+    padding: 20px 0 0 37%;
+    } 
+}
+
+@media screen and (max-width:840px) {
+    #copyright { 
+        padding: 34px 0 0 0;
+    }
+
+   .social {
+    text-align: end;
+    padding: 20px 0 0 0;
+    } 
+}
+
+@media screen and (max-width:600px) {
+    #copyright { 
+        float: none;
+        text-align: center;
+        padding: 24px 0 12px 0;
+        font-size: 12px;
+    }
+
+    .social {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 0 17px;
+        }
+    }
+
+    .tw, .fb, .pinterest, .google {
+        float: none;
+        display: inline-block;
+        margin: 0 0 0 7px;
+    }
+
 }
